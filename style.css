@@ -1,1 +1,83 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
 
+.cabeçalho{
+    background-color: #011e5e;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Cabeçalho-imagem{
+    width: 10%;
+}
+
+.cabeçalho-lista-item{
+    display: inline-block;
+    margin: 0 16px;
+    font-size: 24px;
+}
+
+.High-School-rafiki{
+    width: 25%;
+}
+
+.escola{
+    background-image: linear-gradient(#011e5e, #3fb6aa);
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+}
+
+.escola-div{
+    width: 35%;
+}
+
+.sobre-a-escola{
+    padding: 24px 0px;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.Alunos{
+    background-image: linear-gradient(#3fb6aa, #77ffe8);
+}
+
+.Eu{
+    width: 150px;
+}
+
+.estudante-logo{
+    width: 24px;
+}
+
+.estudante-div{
+    text-align: center;
+}
+
+.alunos-titulo{
+    text-align: center;
+    padding: 50px;
+}
+
+.todos-alunos{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
+
+.rodape{
+    background-color: #77ffe8;
+    text-align: center;
+}
+
+.rodape-imagem{
+    width: 10%;
+    padding: 12px 0px;
+}
